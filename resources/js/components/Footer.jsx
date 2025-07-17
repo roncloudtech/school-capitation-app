@@ -1,3 +1,4 @@
+import logo from '@/assets/nigeria-army.png';
 export default function Footer() {
     return (
         <footer className="bg-[#0f2a13] py-16 text-gray-400">
@@ -6,12 +7,12 @@ export default function Footer() {
                     {/* Brand Info */}
                     <div>
                         <div className="mb-4 flex items-center">
-                            <div className="mr-3 flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[#14532d] via-[#1A4D2B] to-[#FFD700]">
-                                <span className="font-bold text-white">MF</span>
+                            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#FFD700] me-1">
+                                <img src={logo} alt="Logo" />
                             </div>
-                            <h3 className="text-xl font-bold text-white">
-                                Mil<span className="text-[#19a852]">Fund</span>
-                            </h3>
+                            <h1 className="text-xl font-bold">
+                                NAFC School<span className="text-[#FFD700]"> Services</span>
+                            </h1>
                         </div>
                         <p className="mb-4">Secure capitation remittance for military academies worldwide.</p>
                         <div className="flex space-x-4">
@@ -106,7 +107,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
                     <p>
-                        &copy; {new Date().getFullYear()} <strong className="text-white">MilFund</strong>. All rights reserved. | Military-Grade
+                        &copy; {new Date().getFullYear()} <strong className="text-white">NAFC School Services</strong>. All rights reserved. | Military-Grade
                         Financial Solutions
                     </p>
                 </div>
